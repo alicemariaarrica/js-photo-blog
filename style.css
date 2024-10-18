@@ -5,3 +5,21 @@ utilizzando soltanto HTML e CSS e riproducendo una singola fotografia (usiamo un
 /*Da usare*/
 /*css rotate property e scale property*/
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background-image: url('./img/wall.png');
+    background-size: cover; 
+    height: 130px; 
+    width: 100%; 
+}
+
+.body {
+    background-image: url('./img/cork.png');
+    background-size: cover; 
+    height: calc(100vh - 130px);
+    width: 100%; 
+}
