@@ -5,10 +5,10 @@ utilizzando soltanto HTML e CSS e riproducendo una singola fotografia (usiamo un
 /*Da usare*/
 /*css rotate property e scale property*/
 
-body {
+* {
     margin: 0;
     padding: 0;
-   
+    box-sizing: 0;
    
 }
 
