@@ -8,8 +8,7 @@ utilizzando soltanto HTML e CSS e riproducendo una singola fotografia (usiamo un
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
-   
+    box-sizing: border-box; 
 }
 
 header {
@@ -17,21 +16,52 @@ header {
     background-size: cover; 
     height: 130px; 
     width: 100%; 
-    
-   
-   
 }
 
 .body {
     background-image: url('./img/cork.png');
     background-size: cover; 
     height: calc(100vh - 130px);
-    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
+
 
 h1 {
     text-align: center; 
     font-family: 'Edu TAS Beginner'
     
 }
-   
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    flex-basis: 300px; 
+    margin: 10px; 
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    text-align: center; 
+}
+
+.card img {
+    width: 90%; 
+    height: auto; }
+
+
+.card-body {
+    padding: 10px; 
+}
+
+
+.card-text {
+    color: #2e2c2c; 
+}
