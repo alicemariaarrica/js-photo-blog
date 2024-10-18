@@ -8,13 +8,18 @@ utilizzando soltanto HTML e CSS e riproducendo una singola fotografia (usiamo un
 body {
     margin: 0;
     padding: 0;
+   
+   
 }
 
-.title {
+header {
     background-image: url('./img/wall.png');
     background-size: cover; 
     height: 130px; 
     width: 100%; 
+    
+   
+   
 }
 
 .body {
@@ -24,3 +29,9 @@ body {
     width: 100%; 
 }
 
+h1 {
+    text-align: center; 
+    font-family: 'Edu TAS Beginner'
+    
+}
+   
