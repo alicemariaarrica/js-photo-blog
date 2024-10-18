@@ -47,6 +47,7 @@ p{
 .col-4 {
     flex-basis: 300px; 
     margin: 10px; 
+    position: relative;
 }
 
 .card {
@@ -71,4 +72,14 @@ p{
 
 .card-text {
     color: #2e2c2c; 
+}
+
+.svg-icon {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    top: -18px; 
+   
 }
