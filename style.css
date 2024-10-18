@@ -16,6 +16,9 @@ header {
     background-size: cover; 
     height: 130px; 
     width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .body {
@@ -32,6 +35,11 @@ h1 {
     text-align: center; 
     font-family: 'Edu TAS Beginner'
     
+    
+}
+
+.title-container{
+    font-size: 3rem;
 }
 
 p{
